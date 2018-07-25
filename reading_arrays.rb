@@ -34,5 +34,8 @@ end
 
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
-STUDENT_NAMES[0] + STUDENT_NAMES[1] +STUDENT_NAMES[2]
+returnarray = []
+returnarray[0] = STUDENT_NAMES[0] 
+returnarray[1] = STUDENT_NAMES[1] 
+returnarray[2] = STUDENT_NAMES[2]
 end
